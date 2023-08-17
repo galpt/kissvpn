@@ -179,7 +179,7 @@ Endpoint = sg-r.0ms.run:443
 
 > :information_source: This is optional, but if you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
 
-## Mullvad VPN
+## Mullvad VPN (Tested, No Guarantee to Always Work)
 
 The [Mullvad](https://mullvad.net/en) VPN is another great alternative you could use after WARP.
 
@@ -202,7 +202,7 @@ Endpoint = sg-r.0ms.run:444
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
-## Proton VPN
+## Proton VPN (Tested, No Guarantee to Always Work)
 
 The [Proton](https://protonvpn.com/) VPN is another great alternative you could use other than WARP and Mullvad.
 
