@@ -134,7 +134,7 @@ According to the last explanation from the [Endpoint](https://github.com/galpt/k
 
 # Supported VPN Providers
 
-For now, this guide has been tested only with a very limited number of VPN providers. This may change as the time goes and more people are contributing to improve this guide.
+Until now, this guide has been tested only with a very limited number of VPN providers. This may change as the time goes and more people are contributing to improve this guide.
 
 ## Cloudflare 1.1.1.1
 
