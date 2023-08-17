@@ -89,7 +89,7 @@ Modern VPNs use strong encryption algorithms so your data between you and your V
 
 ## Encryption of VPNs
 
-Encryption is a technique used to transform information from its original form, called *plaintext*, into an encrypted form, known as *ciphertext*. It aims to protect the confidentiality and integrity of your online information. You might already heard of the [Advanced Encryption Standard (AES)](https://youtu.be/O4xNJsjtN6E), which is a widely trusted encryption algorithm by the United States government, military and other organizations.
+Encryption is a technique used to transform information from its original form, called *plaintext*, into an encrypted form, known as *ciphertext*. It aims to protect the confidentiality and integrity of your online information. You might already heard of the term *[Advanced Encryption Standard (AES)](https://youtu.be/O4xNJsjtN6E)*, which is a widely trusted encryption algorithm by the United States government, military and other organizations.
 
 Encryption ensures that only authorized individuals with the appropriate decryption key can decode the ciphertext and access the original plaintext. 
 
@@ -104,7 +104,7 @@ There are some protocols commonly used by VPNs, including:
 - OpenVPN
 - WireGuard
 
-This guides explains mostly about the WireGuard protocol because it is a modern protocol which is secure, really fast, and used by many VPN providers as of now.
+This guide explains mostly about the WireGuard protocol because it is a modern protocol which is secure, really fast, and used by many VPN providers as of now.
 
 ### OpenVPN
 
