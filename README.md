@@ -173,7 +173,7 @@ DNS = 45.135.228.52
 
 [Peer]
 ...
-Endpoint = sg-r.0ms.run:443
+Endpoint = sg-r.0ms.dev:443
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
@@ -198,7 +198,7 @@ DNS = 45.135.228.52
 
 [Peer]
 ...
-Endpoint = sg-r.0ms.run:444
+Endpoint = sg-r.0ms.dev:444
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
@@ -228,7 +228,7 @@ DNS = 45.135.228.52
 [Peer]
 # JP-FREE#117005
 ...
-Endpoint = sg-r.0ms.run:445
+Endpoint = sg-r.0ms.dev:445
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
