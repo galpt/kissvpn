@@ -177,14 +177,6 @@ Endpoint = sg-r.0ms.dev:443
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
-### Supported Locations
-
-As of now, we only support acceleration for a limited number of regions.
-1. Use `Endpoint = sg-r.0ms.dev:443` for Singapore.
-2. Use `Endpoint = sg-r.0ms.dev:500` for Japan.
-3. Use `Endpoint = sg-r.0ms.dev:501` for United States.
-4. Use `Endpoint = sg-r.0ms.dev:502` for Germany.
-
 > :information_source: This is optional, but if you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
 
 ## Mullvad VPN (Tested, No Guarantee to Always Work)
