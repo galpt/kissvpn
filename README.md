@@ -183,8 +183,14 @@ As of now, we only support acceleration for a limited number of regions.
 
 1. Use `Endpoint = sg-r.0ms.dev:443` for Singapore.
 2. Use `Endpoint = sg-r.0ms.dev:500` for Japan.
+2. Use `Endpoint = sg-r.0ms.dev:501` for Germany.
 
-> :information_source: This is optional, but if you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
+> :information_source: **NOTES**
+> 1. (Optional) If you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
+> 2. Custom regions are possible only and if only people make requests for them, and we receive enough financial supports.
+>    1. You can send your request to ask@0ms.dev and describe why you need it.
+>    2. A request won't be processed if there aren't enough demands for it.
+>    3. A request won't be processed if there aren't enough financial supports for it. See the [Donation](https://github.com/galpt/kissvpn#donation) section for the details.
 
 ## Mullvad VPN (Tested, No Guarantee to Always Work)
 
