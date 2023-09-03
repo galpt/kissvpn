@@ -257,7 +257,7 @@ You could help us improving this guide by translating it to your native language
 
 ## Donation
 
-It costs us quite a lot to maintain all of our servers, and we use one of them for the purpose of writing this guide.
+It costs us quite a lot to maintain all of our servers, and we use some of them for the purpose of writing this guide.
 Until now, this guide works best for APAC users, especially Southeast Asia.
 
 Donations make it possible to support more regions, especially the ones in Europe and the US. Donation of any amount will be greatly appreciated!
