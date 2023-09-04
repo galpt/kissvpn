@@ -183,7 +183,6 @@ As of now, we only support acceleration for a limited number of regions.
 
 1. Use `Endpoint = sg-r.0ms.dev:443` for Singapore.
 2. Use `Endpoint = sg-r.0ms.dev:500` for Japan.
-2. Use `Endpoint = sg-r.0ms.dev:501` for Germany.
 
 > :information_source: **NOTES**
 > 1. (Optional) If you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
