@@ -169,7 +169,7 @@ wgcf.exe generate
 ```yaml
 [Interface]
 ...
-DNS = 45.135.228.52
+DNS = <Your Preferred DNS>
 
 [Peer]
 ...
@@ -179,10 +179,7 @@ Endpoint = sg-r.0ms.dev:443
 
 ### Supported Regions
 
-As of now, we only support acceleration for a limited number of regions.
-
-1. Use `Endpoint = sg-r.0ms.dev:443` for Singapore.
-2. Use `Endpoint = sg-r.0ms.dev:500` for Japan.
+As of now, we only support acceleration for a limited number of region(s).
 
 > :information_source: **NOTES**
 > 1. (Optional) If you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
@@ -206,7 +203,7 @@ From performance perspective, Mullvad might be less performant than WARP since t
 ```yaml
 [Interface]
 ...
-DNS = 45.135.228.52
+DNS = <Your Preferred DNS>
 
 [Peer]
 ...
@@ -235,7 +232,7 @@ When these servers are getting too crowded, a performance degradation is somethi
 # NAT-PMP (Port Forwarding) = on
 # VPN Accelerator = on
 ...
-DNS = 45.135.228.52
+DNS = <Your Preferred DNS>
 
 [Peer]
 # JP-FREE#117005
