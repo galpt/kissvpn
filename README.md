@@ -181,7 +181,11 @@ Endpoint = cdn.0ms.dev:443
 
 As of now, we only support acceleration for a limited number of region(s).
 
-> :information_source: **NOTES**
+> 🗺️ **Availability**
+> 1. Use `Endpoint = cdn.0ms.dev:443` for Singapore.
+> 2. Use `Endpoint = cdn.0ms.dev:500` for Germany.
+
+> :information_source: **Notes**
 > 1. (Optional) If you already have a WARP+ license and want to use it, follow the instruction [here](https://github.com/ViRb3/wgcf#change-license-key).
 > 2. Custom regions are possible only and if only people make requests for them, and we receive enough financial supports.
 >    1. You can send your request to ask@0ms.dev and describe why you need it.
