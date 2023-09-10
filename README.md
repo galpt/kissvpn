@@ -227,15 +227,15 @@ When these servers are getting too crowded, a performance degradation is somethi
 - Change the `DNS` and `Endpoint` as follows:
 ```yaml
 [Interface]
-# Key for <your@email.com>
-# Bouncing = 1
+# Key for <your@email.com or username>
+# Bouncing = 3
 # NAT-PMP (Port Forwarding) = on
 # VPN Accelerator = on
 ...
 DNS = <Your Preferred DNS>
 
 [Peer]
-# JP-FREE#117005
+# JP-FREE#421011
 ...
 Endpoint = cdn.0ms.dev:445
 ```
