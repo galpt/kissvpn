@@ -75,7 +75,7 @@ Before making the assumption on what has caused your VPN connection to be slow, 
 
 This guide provides explanation on how to accelerate VPN connections to supported VPN providers, written in a simple and easy-to-follow format (a.k.a. *"Keep It Simple, Stupid."*), and is intended for users who are not familiar with VPN technology.
 
-The implementation used in this guide was inspired by a term *Dynamic Content Acceleration* which is commonly known as something provided by CDN providers.
+The implementation used in this guide is inspired by a term *Dynamic Content Acceleration* which is commonly known as something provided by CDN providers.
 
 * * *
 
