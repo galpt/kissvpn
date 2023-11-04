@@ -11,7 +11,8 @@ This document provides a guide on how to accelerate VPN connections to supported
    2. [History of VPNs](https://github.com/galpt/kissvpn#history-of-vpns)
    3. [Causes of Slow VPN Connections](https://github.com/galpt/kissvpn#causes-of-slow-vpn-connections)
 2. [Overview](https://github.com/galpt/kissvpn#overview)
-3. [Security and Privacy Considerations](https://github.com/galpt/kissvpn#security-and-privacy-considerations)
+3. [How It Works](https://github.com/galpt/kissvpn#how-it-works)
+4. [Security and Privacy Considerations](https://github.com/galpt/kissvpn#security-and-privacy-considerations)
    1. [Security](https://github.com/galpt/kissvpn#security)
       1. [Encryption of VPNs](https://github.com/galpt/kissvpn#encryption-of-vpns)
       2. [Common Protocols](https://github.com/galpt/kissvpn#common-protocols)
@@ -19,16 +20,16 @@ This document provides a guide on how to accelerate VPN connections to supported
          2. [WireGuard](https://github.com/galpt/kissvpn#wireguard)
       3. [Endpoint](https://github.com/galpt/kissvpn#endpoint)
    2. [Privacy](https://github.com/galpt/kissvpn#privacy)
-4. [Supported VPN Providers](https://github.com/galpt/kissvpn#supported-vpn-providers)
+5. [Supported VPN Providers](https://github.com/galpt/kissvpn#supported-vpn-providers)
    1. [Cloudflare 1.1.1.1](https://github.com/galpt/kissvpn#cloudflare-1111)
    3. [Mullvad VPN](https://github.com/galpt/kissvpn#mullvad-vpn-tested-no-guarantee-to-always-work)
    4. [Proton VPN](https://github.com/galpt/kissvpn#proton-vpn-tested-no-guarantee-to-always-work)
-5. [Contributing](https://github.com/galpt/kissvpn#contributing)
+6. [Contributing](https://github.com/galpt/kissvpn#contributing)
    1. [Translation](https://github.com/galpt/kissvpn#translation)
    2. [Donation](https://github.com/galpt/kissvpn#donation)
    3. [Other](https://github.com/galpt/kissvpn#other)
-6. [Credits](https://github.com/galpt/kissvpn#credits)
-7. [References](https://github.com/galpt/kissvpn#references)
+7. [Credits](https://github.com/galpt/kissvpn#credits)
+8. [References](https://github.com/galpt/kissvpn#references)
 
 * * *
 
@@ -76,6 +77,12 @@ Before making the assumption on what has caused your VPN connection to be slow, 
 This guide provides explanation on how to accelerate VPN connections to supported VPN providers, written in a simple and easy-to-follow format (a.k.a. *"Keep It Simple, Stupid."*), and is intended for users who are not familiar with VPN technology.
 
 The implementation used in this guide is inspired by a term *Dynamic Content Acceleration* which is commonly known as something provided by CDN providers.
+
+* * *
+
+# How It Works
+
+![How It Works](https://github.com/galpt/kissvpn/blob/main/img/kissvpn-1.png?raw=true)
 
 * * *
 
