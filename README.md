@@ -180,7 +180,7 @@ DNS = <Your Preferred DNS>
 
 [Peer]
 ...
-Endpoint = cdn.0ms.dev:443
+Endpoint = cdn.0ms.dev:11111
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
@@ -214,7 +214,7 @@ DNS = <Your Preferred DNS>
 
 [Peer]
 ...
-Endpoint = cdn.0ms.dev:444
+Endpoint = cdn.0ms.dev:11112
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
@@ -244,7 +244,7 @@ DNS = <Your Preferred DNS>
 [Peer]
 # JP-FREE#421011
 ...
-Endpoint = cdn.0ms.dev:445
+Endpoint = cdn.0ms.dev:11113
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
