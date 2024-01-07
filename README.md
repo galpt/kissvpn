@@ -22,8 +22,6 @@ This document provides a guide on how to accelerate VPN connections to supported
    2. [Privacy](https://github.com/galpt/kissvpn#privacy)
 5. [Supported VPN Providers](https://github.com/galpt/kissvpn#supported-vpn-providers)
    1. [Cloudflare 1.1.1.1](https://github.com/galpt/kissvpn#cloudflare-1111)
-   3. [Mullvad VPN](https://github.com/galpt/kissvpn#mullvad-vpn-tested-no-guarantee-to-always-work)
-   4. [Proton VPN](https://github.com/galpt/kissvpn#proton-vpn-tested-no-guarantee-to-always-work)
 6. [Contributing](https://github.com/galpt/kissvpn#contributing)
    1. [Translation](https://github.com/galpt/kissvpn#translation)
    2. [Donation](https://github.com/galpt/kissvpn#donation)
@@ -180,7 +178,7 @@ DNS = <Your Preferred DNS>
 
 [Peer]
 ...
-Endpoint = cdn.0ms.dev:11111
+Endpoint = net.0ms.dev:11111
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
@@ -194,59 +192,6 @@ As of now, we only support acceleration for a limited number of region(s).
 >    1. You can send your request to ask@0ms.dev and describe why you need it.
 >    2. A request won't be processed if there aren't enough demands for it.
 >    3. A request won't be processed if there aren't enough financial supports for it. See the [Donation](https://github.com/galpt/kissvpn#donation) section for the details.
-
-## Mullvad VPN (Tested, No Guarantee to Always Work)
-
-The [Mullvad](https://mullvad.net/en) VPN is another great alternative you could use after WARP.
-
-From privacy perspective, Mullvad might give you more privacy compared to Cloudflare, and according to some sources (e.g. Reddit, etc.) you could use it for torrenting activity without worrying about your privacy — that is if you are into torrenting.
-
-From performance perspective, Mullvad might be less performant than WARP since they have a small number of servers compared to Cloudflare, and their user base have to share the same servers and the same IP addresses. When their servers are getting too crowded, you might notice a performance degradation.
-
-### How to Use
-
-- Import the `.conf` file to your **WireGuard** client.
-- Change the `DNS` and `Endpoint` as follows:
-```yaml
-[Interface]
-...
-DNS = <Your Preferred DNS>
-
-[Peer]
-...
-Endpoint = cdn.0ms.dev:11112
-```
-- Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
-
-## Proton VPN (Tested, No Guarantee to Always Work)
-
-The [Proton](https://protonvpn.com/) VPN is another great alternative you could use other than WARP and Mullvad.
-
-From privacy perspective, Proton might give you more privacy compared to Cloudflare or even Mullvad since they are a Swiss-based company — which will guarantee your privacy even more. This means you could use it for torrenting activity without worrying about your privacy compared to when using Mullvad or Cloudflare.
-
-From performance perspective, they have more servers compared to Mullvad, but lesser compared to Cloudflare, and for Asia users — we are limited to Japan-only servers if we are not getting their Premium plan.
-
-When these servers are getting too crowded, a performance degradation is something you couldn't avoid.
-
-### How to Use
-
-- Import the `.conf` file to your **WireGuard** client.
-- Change the `DNS` and `Endpoint` as follows:
-```yaml
-[Interface]
-# Key for <your@email.com or username>
-# Bouncing = 3
-# NAT-PMP (Port Forwarding) = on
-# VPN Accelerator = on
-...
-DNS = <Your Preferred DNS>
-
-[Peer]
-# JP-FREE#421011
-...
-Endpoint = cdn.0ms.dev:11113
-```
-- Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
 * * *
 
