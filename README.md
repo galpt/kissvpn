@@ -178,7 +178,7 @@ DNS = <Your Preferred DNS>
 
 [Peer]
 ...
-Endpoint = net.0ms.dev:11111
+Endpoint = v.0ms.dev:11111
 ```
 - Click `Save` to save the new edited config, and then click the `Active` button to connect to the server.
 
